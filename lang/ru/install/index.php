@@ -1,0 +1,5 @@
+<?php
+$MESS['VENDOR_CUSTOMFIELD_MODULE_NAME'] = 'Vendor.CustomFields';
+$MESS['VENDOR_CUSTOMFIELD_MODULE_DESC'] = 'Коллекция пользовательских полей';
+$MESS['VENDOR_CUSTOMFIELD_PARTNER_NAME'] = 'Vendor';
+$MESS['VENDOR_CUSTOMFIELD_PARTNER_URI'] = '';
