@@ -86,7 +86,7 @@ class ListDateField extends \Bitrix\Main\UserField\TypeBase
                 );
                 \Bitrix\Main\EventManager::getInstance()->addEventHandler(
                     'iblock', 'OnAfterIBlockElementSetPropertyValuesEx',
-                    function($ELEMENT_ID, $IBLOCK_ID, $PROPERTY_VALUES, $PROPERTY_CODE) use ($arProperty) {
+                    function($ELEMENT_ID, $IBLOCK_ID, $PROPERTY_VALUES, $FLAGS) use ($arProperty) {
                         self::saveDescription($ELEMENT_ID, $IBLOCK_ID, $PROPERTY_VALUES, $arProperty);
                     }
                 );
