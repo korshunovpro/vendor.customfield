@@ -221,7 +221,7 @@ class ListDateField extends \Bitrix\Main\UserField\TypeBase
             if ($multiple != 'Y') {
                 $uniq = self::getUniq();
                 $noInput = '<tr>'
-                    . '<td width="50%">' 
+                        . '<td width="50%">' 
                             . '<input '
                                 . 'type="radio"'
                                 . 'name="' . $name . '[' . $cnt . ']" '
