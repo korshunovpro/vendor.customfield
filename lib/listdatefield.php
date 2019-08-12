@@ -34,7 +34,7 @@ class ListDateField extends \Bitrix\Main\UserField\TypeBase
     {
         return array(
             'PROPERTY_TYPE' => 'L',
-            'USER_TYPE'     => 'HTML',
+            'USER_TYPE'     => self::USER_TYPE_ID,
             'USER_TYPE_ID'  => self::USER_TYPE_ID,
             'DESCRIPTION'   => GetMessage('USER_TYPE_ENUM_DESCRIPTION'),
             'BASE_TYPE'     => \CUserTypeManager::BASE_TYPE_ENUM,
